@@ -3123,6 +3123,8 @@ form button:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* z-index: -10; */
+  top: 0;
+  left: 0;
 }
 
 .bg-img1{
