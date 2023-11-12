@@ -96,3 +96,8 @@ window.addEventListener("scroll", reveal_r);
 window.addEventListener("scroll", reveal_l);
 window.addEventListener("scroll", reveal_up);
 window.addEventListener("scroll", revealf);
+
+let newHeight = $(window).height();
+let newWidth = $(window).width();
+let diff = newHeight - initHeight;
+$('.about-bg-img').css('background-position', "85% " + (startHeightOffset + diff) + "px")
