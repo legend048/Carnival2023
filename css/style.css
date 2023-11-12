@@ -69,9 +69,13 @@ body {
   overflow-x: hidden;
   width: 100%;
   background: #171717;
-  -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
-  /* position: fixed; */
+}
+@media (max-width: 768px) {
+  body{
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    position: fixed;
+  }
 }
 #header {
   /* background:#171717; */
